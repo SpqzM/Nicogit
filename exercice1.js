@@ -26,7 +26,7 @@ function reducePrice(ordersArray){
     let year = date.getFullYear(date);
     if (month === 6 && year === 2020){
     ordersArray[i].price=(ordersArray[i].price-ordersArray[i].price*20/100).toFixed(2);
-  }
+    }
   }
 }
 reducePrice(orders);
